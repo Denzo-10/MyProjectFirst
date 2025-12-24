@@ -1,0 +1,148 @@
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.exe
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.deps.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.runtimeconfig.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp_MarkupCompile.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.g.resources
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.AssemblyInfoInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.AssemblyInfo.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\refint\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.genruntimeconfig.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\ref\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.AssemblyReference.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.Up2Date
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\BCrypt.Net-Next.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\System.Runtime.Caching.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.ObjectPool.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Net.Http.Headers.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\LoginWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\MainWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\ProductEditWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\LoginWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\Views\ProductEditWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\App.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DesktopApp\obj\Debug\net9.0-windows\DesktopApp_MarkupCompile.lref
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.exe
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.deps.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.runtimeconfig.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DesktopApp.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Azure.Core.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Azure.Identity.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\BCrypt.Net-Next.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.ObjectPool.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.Net.Http.Headers.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\System.ClientModel.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\System.Memory.Data.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\System.Runtime.Caching.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\bin\Debug\net9.0-windows\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.AssemblyReference.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\LoginWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\ProductEditWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\App.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\LoginWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\MainWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\ProductEditWindow.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\App.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp_MarkupCompile.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp_MarkupCompile.lref
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\Views\MainWindow.baml
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.g.resources
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.AssemblyInfoInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.AssemblyInfo.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.csproj.Up2Date
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\refint\DesktopApp.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\DesktopApp.genruntimeconfig.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\ref\DesktopApp.dll

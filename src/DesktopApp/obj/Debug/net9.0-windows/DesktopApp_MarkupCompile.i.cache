@@ -1,0 +1,20 @@
+﻿DesktopApp
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\obj\Debug\net9.0-windows\
+DesktopApp
+none
+false
+TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DesktopApp\App.xaml
+3-2015863954
+
+91006763744
+237-1675071967
+Views\LoginWindow.xaml;Views\MainWindow.xaml;Views\ProductEditWindow.xaml;
+
+False
+

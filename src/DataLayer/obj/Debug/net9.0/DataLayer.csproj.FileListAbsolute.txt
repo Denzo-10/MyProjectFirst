@@ -1,0 +1,28 @@
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\bin\Debug\net9.0\DataLayer.deps.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\bin\Debug\net9.0\DataLayer.runtimeconfig.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\bin\Debug\net9.0\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\bin\Debug\net9.0\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfo.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\refint\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\DataLayer.genruntimeconfig.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\Итоговое задание Маломан\FinalTask\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\bin\Debug\net9.0\DataLayer.deps.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\bin\Debug\net9.0\DataLayer.runtimeconfig.json
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\bin\Debug\net9.0\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\bin\Debug\net9.0\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.csproj.AssemblyReference.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfoInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.AssemblyInfo.cs
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\refint\DataLayer.dll
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.pdb
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\DataLayer.genruntimeconfig.cache
+C:\Users\rjnbr\OneDrive\Рабочий стол\MyProject\src\DataLayer\obj\Debug\net9.0\ref\DataLayer.dll

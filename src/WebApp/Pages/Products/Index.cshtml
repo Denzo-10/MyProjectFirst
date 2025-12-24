@@ -1,0 +1,235 @@
+﻿@page
+@model WebApp.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Товары";
+}
+
+<div class="container mt-4">
+    <h1 class="page-title">Каталог товаров</h1>
+
+    <!-- Информация о пользователе -->
+    @if (Model.IsAuthenticated && !string.IsNullOrEmpty(Model.UserFullName))
+    {
+        <div class="alert alert-info mb-4">
+            <strong>Вы вошли как:</strong> @Model.UserFullName 
+            <span class="badge bg-primary ms-2">@HttpContext.Session.GetString("UserRole")</span>
+        </div>
+    }
+
+    <form method="get" class="filter-form">
+        <div class="filter-section">
+            <div class="filter-row">
+                <div class="filter-group">
+                    <label class="filter-label">Поиск по описанию:</label>
+                    <input type="text" class="filter-input" 
+                           name="SearchDescription" 
+                           value="@Model.SearchDescription" 
+                           placeholder="Введите описание товара..." 
+                           style="width: 300px;" />
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Производитель:</label>
+                    <select class="filter-select" name="ManufacturerId">
+                        <option value="">Все производители</option>
+                        @foreach (var manufacturer in Model.Manufacturers)
+                        {
+                            <option value="@manufacturer.ManufacturerId" 
+                                    selected="@(Model.ManufacturerId == manufacturer.ManufacturerId)">
+                                @manufacturer.Name
+                            </option>
+                        }
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Цена до:</label>
+                    <input type="number" class="filter-input" 
+                           name="MaxPrice" 
+                           value="@Model.MaxPrice" 
+                           placeholder="Макс. цена" 
+                           step="0.01" 
+                           min="0" 
+                           style="width: 120px;" />
+                </div>
+            </div>
+
+            <div class="filter-row">
+                <div class="filter-group">
+                    <input type="checkbox" class="filter-checkbox" 
+                           id="OnlyDiscounted" 
+                           name="OnlyDiscounted" 
+                           value="true" 
+                           checked="@Model.OnlyDiscounted" />
+                    <label for="OnlyDiscounted">Только со скидкой</label>
+                </div>
+
+                <div class="filter-group">
+                    <input type="checkbox" class="filter-checkbox" 
+                           id="InStockOnly" 
+                           name="InStockOnly" 
+                           value="true" 
+                           checked="@Model.InStockOnly" />
+                    <label for="InStockOnly">Только в наличии</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="sort-section">
+            <div class="sort-options">
+                <span style="font-weight: bold; margin-right: 10px;">Сортировка:</span>
+                <button type="submit" name="SortBy" value="name" 
+                        class="sort-btn @(Model.SortBy == "name" ? "active" : "")">
+                    По названию ↑
+                </button>
+                <button type="submit" name="SortBy" value="name_desc" 
+                        class="sort-btn @(Model.SortBy == "name_desc" ? "active" : "")">
+                    По названию ↓
+                </button>
+                <button type="submit" name="SortBy" value="supplier" 
+                        class="sort-btn @(Model.SortBy == "supplier" ? "active" : "")">
+                    По поставщику ↑
+                </button>
+                <button type="submit" name="SortBy" value="supplier_desc" 
+                        class="sort-btn @(Model.SortBy == "supplier_desc" ? "active" : "")">
+                    По поставщику ↓
+                </button>
+                <button type="submit" name="SortBy" value="price" 
+                        class="sort-btn @(Model.SortBy == "price" ? "active" : "")">
+                    По цене ↑
+                </button>
+                <button type="submit" name="SortBy" value="price_desc" 
+                        class="sort-btn @(Model.SortBy == "price_desc" ? "active" : "")">
+                    По цене ↓
+                </button>
+                
+                <button type="submit" name="SortBy" value="@Model.SortBy" 
+                        class="btn-apply" style="margin-left: auto;">
+                    Применить фильтры
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <div class="product-container">
+        @if (Model.Products.Any())
+        {
+            @foreach (var product in Model.Products)
+            {
+                <div class="product-item @(product.HighDiscount ? "high-discount" : "")">
+                    <div class="product-header">
+                        <h3 class="product-title">@product.Name</h3>
+                        <div class="product-price">
+                            @if (product.HasDiscount)
+                            {
+                                <span class="original-price">@product.Price.ToString("N2") руб.</span>
+                                <span class="discounted-price">@product.DiscountedPrice.ToString("N2") руб.</span>
+                                <span style="color: #d00; margin-left: 10px;">(Скидка @product.Discount%)</span>
+                            }
+                            else
+                            {
+                                <span>@product.Price.ToString("N2") руб.</span>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            @if (!string.IsNullOrEmpty(product.Photo) && System.IO.File.Exists($"wwwroot/images/{product.Photo}"))
+                            {
+                                <img src="~/images/@product.Photo" 
+                                     alt="@product.Name" 
+                                     class="product-image" />
+                            }
+                            else
+                            {
+                                <img src="~/images/picture.png" 
+                                     alt="Заглушка" 
+                                     class="product-image" />
+                            }
+                        </div>
+                        <div class="col-md-8">
+                            <div class="product-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Категория товара:</span>
+                                    <span class="detail-value">@product.CategoryName</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Наименование товара:</span>
+                                    <span class="detail-value">@product.Name</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Описание товара:</span>
+                                    <span class="detail-value">@product.Description</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Производитель:</span>
+                                    <span class="detail-value">@product.ManufacturerName</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Поставщик:</span>
+                                    <span class="detail-value">@product.SupplierName</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Цена:</span>
+                                    <span class="detail-value">
+                                        @if (product.HasDiscount)
+                                        {
+                                            <del>@product.Price.ToString("N2") руб.</del>
+                                            <span style="color: #d00; margin-left: 5px;">
+                                                @product.DiscountedPrice.ToString("N2") руб.
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            @product.Price.ToString("N2") <span>руб.</span>
+                                        }
+                                    </span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Единица измерения:</span>
+                                    <span class="detail-value">@product.Unit</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Количество на складе:</span>
+                                    <span class="detail-value @(product.InStock ? "" : "text-danger")">
+                                        @product.StockQuantity
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- Кнопка "Заказать" -->
+                            <div class="product-actions mt-3">
+                                @if (Model.IsAuthenticated && Model.IsClient)
+                                {
+                                    <form method="get" asp-page="/Products/Order">
+                                        <input type="hidden" name="productId" value="@product.ProductId" />
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="bi bi-cart-plus"></i> Заказать
+                                        </button>
+                                    </form>
+                                }
+                                else if (!Model.IsAuthenticated)
+                                {
+                                    <a asp-page="/Login" asp-route-returnUrl="@Url.Page("/Products/Order", new { productId = product.ProductId })" class="btn btn-primary">
+                                        <i class="bi bi-box-arrow-in-right"></i> Войти для заказа
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">Только клиенты могут оформлять заказы</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info">
+                Товары не найдены. Попробуйте изменить параметры фильтрации.
+            </div>
+        }
+    </div>
+</div>

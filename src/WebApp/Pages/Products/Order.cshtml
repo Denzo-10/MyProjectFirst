@@ -1,0 +1,138 @@
+﻿@page
+@model WebApp.Pages.Products.OrderModel
+@{
+    ViewData["Title"] = "Оформление заказа";
+}
+
+<div class="container mt-4">
+    <h1 class="page-title">Оформление заказа</h1>
+
+    @if (Model.Product != null)
+    {
+        <div class="card">
+            <div class="card-header">
+                <h4><i class="bi bi-cart-check"></i> @Model.Product.Name</h4>
+            </div>
+            <div class="card-body">
+                <!-- Показываем ошибки валидации -->
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        @if (!string.IsNullOrEmpty(Model.Product.Photo))
+                        {
+                            <img src="~/images/@Model.Product.Photo" alt="@Model.Product.Name"
+                                 class="img-fluid rounded shadow-sm mb-3" />
+                        }
+                        else
+                        {
+                            <img src="~/images/picture.png" alt="Заглушка"
+                                 class="img-fluid rounded shadow-sm mb-3" />
+                        }
+
+                        <div class="text-center">
+                            <span class="badge bg-info p-2">Артикул: @Model.Product.Article</span>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <!-- Информация о товаре -->
+                        <div class="row mb-3">
+                            <div class="col-md-6 mb-2">
+                                <strong><i class="bi bi-tag"></i> Категория:</strong><br>
+                                @Model.Product.Category?.Name
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <strong><i class="bi bi-building"></i> Производитель:</strong><br>
+                                @Model.Product.Manufacturer?.Name
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <strong><i class="bi bi-currency-dollar"></i> Цена:</strong><br>
+                                <span class="h5 text-primary">@Model.Product.Price.ToString("N2") руб.</span>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <strong><i class="bi bi-box-seam"></i> В наличии:</strong><br>
+                                @if (Model.Product.StockQuantity > 0)
+                                {
+                                    <span class="h5 text-success">@Model.Product.StockQuantity шт.</span>
+                                }
+                                else
+                                {
+                                    <span class="h5 text-danger">Нет в наличии</span>
+                                }
+                            </div>
+                        </div>
+
+                        <hr />
+
+                        <!-- Форма заказа -->
+                        <form method="post">
+                            <!-- Скрытое поле для ProductId -->
+                            <input type="hidden" asp-for="ProductId" />
+
+                            <!-- Поле для количества -->
+                            <div class="mb-4">
+                                <label asp-for="Quantity" class="form-label fw-bold">
+                                    <i class="bi bi-list-ol"></i> Количество товара:
+                                </label>
+
+                                <input type="number" class="form-control w-25"
+                                       asp-for="Quantity"
+                                       min="1"
+                                       max="@Model.Product.StockQuantity" />
+
+                                <span asp-validation-for="Quantity" class="text-danger"></span>
+
+                                @if (Model.Product.StockQuantity.HasValue)
+                                {
+                                    <div class="form-text mt-2">
+                                        Доступно: @Model.Product.StockQuantity шт.
+                                    </div>
+                                    <div class="form-text">
+                                        Общая стоимость:
+                                        <span class="fw-bold text-primary">
+                                            @((Model.Product.Price * Model.Quantity).ToString("N2")) руб.
+                                        </span>
+                                    </div>
+                                }
+                            </div>
+
+                            <!-- Информация о заказе -->
+                            <div class="alert alert-info">
+                                <h5><i class="bi bi-info-circle"></i> Информация о заказе:</h5>
+                                <ul class="mb-0">
+                                    <li><strong>Дата заказа:</strong> текущая дата</li>
+                                    <li><strong>Дата доставки:</strong> через 7 дней</li>
+                                    <li><strong>Статус:</strong> <span class="badge bg-primary">Новый</span></li>
+                                    <li><strong>Код получения:</strong> случайное число от 100 до 999</li>
+                                </ul>
+                            </div>
+
+                            <!-- Кнопки -->
+                            <div class="d-flex gap-2 mt-4">
+                                <button type="submit" class="btn btn-success btn-lg flex-grow-1">
+                                    <i class="bi bi-check-circle"></i> Подтвердить заказ
+                                </button>
+                                <a asp-page="/Products/Index" class="btn btn-outline-secondary btn-lg">
+                                    <i class="bi bi-x-circle"></i> Отмена
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <i class="bi bi-exclamation-triangle"></i> Товар не найден.
+        </div>
+        <a asp-page="/Products/Index" class="btn btn-primary">
+            <i class="bi bi-arrow-left"></i> Вернуться к товарам
+        </a>
+    }
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

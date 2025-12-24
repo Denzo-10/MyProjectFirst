@@ -1,0 +1,81 @@
+﻿@page
+@model WebApp.Pages.Orders.IndexModel
+@{
+    ViewData["Title"] = "Заказы";
+}
+
+<div class="container mt-4">
+    <h1 class="page-title">Список заказов</h1>
+
+    <!-- Информация о пользователе -->
+    @if (!string.IsNullOrEmpty(Model.UserFullName))
+    {
+        <div class="alert alert-info">
+            <strong>Пользователь:</strong> @Model.UserFullName
+            <br>
+            <strong>Роль:</strong> @Model.UserRole
+        </div>
+    }
+
+    <!-- Таблица заказов -->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Номер заказа</th>
+                    <th>Состав</th>
+                    <th>Дата заказа</th>
+                    <th>Дата доставки</th>
+                    <th>Статус</th>
+                    @if (Model.UserRole == "Менеджер" || Model.UserRole == "Администратор")
+                    {
+                        <th>Клиент</th>
+                    }
+                    <th>Итоговая стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.OrderNumber</td>
+                        <td>
+                            <ul class="list-unstyled mb-0">
+                                @foreach (var item in order.Products)
+                                {
+                                    <li>@item.ProductName × @item.Quantity = @(item.Price* item.Quantity) руб.</li>
+                                }
+                            </ul>
+                        </td>
+                        <td>@order.OrderDate.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>@(order.DeliveryDate?.ToString("dd.MM.yyyy") ?? "Не указана")</td>
+                        <td>
+                            @{
+                                var badgeClass = order.OrderStatus switch
+                                {
+                                    "Новый" => "bg-primary",
+                                    "В обработке" => "bg-warning",
+                                    "Доставлен" => "bg-success",
+                                    _ => "bg-secondary"
+                                };
+                            }
+                            <span class="badge @badgeClass">@order.OrderStatus</span>
+                        </td>
+                        @if (Model.UserRole == "Менеджер" || Model.UserRole == "Администратор")
+                        {
+                            <td>@order.UserFullName</td>
+                        }
+                        <td class="fw-bold">@order.TotalPrice.ToString("N2") руб.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        @if (!Model.Orders.Any())
+        {
+            <div class="alert alert-info text-center">
+                Заказов не найдено
+            </div>
+        }
+    </div>
+</div>
